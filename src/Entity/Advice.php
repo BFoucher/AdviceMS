@@ -6,7 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Class Advice
- * @ORM\Entity()
+ * @ORM\Entity(repositoryClass="App\Repository\AdviceRepository")
  * @ApiResource()
  */
 class Advice
